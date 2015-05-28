@@ -8,20 +8,20 @@
 <?php
 	define('COLS',4);
 	define ('ROWS', 5);
+	echo "<table border=1>";
+	for ($a=1; $a<=ROWS; $a++) {
+		echo "<tr>";
+		for ($b=1;$b<=COLS; $b++) {
+			echo "<td>$a,$b </td>";
+		}
+		echo "</tr>";
+	}
+		echo "</table>";		
+
 	
-	$koloni= 'COLS';
-	$redove= 'ROWS';
 	
-	for ($koloni=1; $koloni<=4; $koloni++);
-	for ($redove=1; $redove<=5; $redove++);
 ?>	
-	<table>
-  <tr>
-    <td> echo '$koloni .$redove' </td>;
-    </tr>
-  
-</table>
-		
+	
 
 
 </body>
